@@ -21,4 +21,4 @@ RUN apt-get install -y libnetcdff-dev
 
 # copy docker-built exec file to correct location
 # TODO: better way to do this?
-RUN cp /dar_one_docker/Dar_One/mitgcmuv /dar_one_docker/darwin3/verification/dar_one_config/build/mitgcmuv
+# RUN cp /dar_one_docker/Dar_One/mitgcmuv /dar_one_docker/darwin3/verification/dar_one_config/build/mitgcmuv
